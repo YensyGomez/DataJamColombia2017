@@ -150,14 +150,14 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  background: rgba(16, 16, 16, 0.5) url('../img/header.jpg') no-repeat center;
   background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-image: url('../img/header.jpg');
-  text-align: center;
-  color: white;
+  animation:fade 12s infinite;
+  -webkit-animation:fade 12s infinite;
+  -moz-animation:fade 12s infinite;
+  -o-animation:fade 12s infinite;
+  background-blend-mode: multiply;
+  color: #fff;
 }
 header .header-content {
   position: relative;
