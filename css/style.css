@@ -12,3 +12,11 @@
   border-color: #F05F40;
   color: #fff;
 }
+
+#fase1, #fase2, #fase3, #fase4, #fase5{
+  border-bottom: 2px solid #F05F40;
+}
+
+h2{
+  color: #F05F40;
+}
